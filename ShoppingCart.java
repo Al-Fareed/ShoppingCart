@@ -13,6 +13,10 @@ public class ShoppingCart {
         _gst  = gst;
         _qty = qty;
     } 
+    public void productName(String name)
+    {
+        this._productName = name;
+    }
     public String ProductName(){
         return _productName;
     }
